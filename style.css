@@ -61,8 +61,10 @@ a {
 
 /* Hero section */
 #hero {
-    /* background-image: url(./hero-bg.png); */
-    background-image: url(./sbg.jpg);
+    /* background-image: url(./bg22.webp); */
+    /* background-color: grad; */
+    background: rgb(9,7,22);
+    background: linear-gradient(105deg, rgba(9,7,22,1) 22%, rgba(134,66,143,1) 51%, rgba(79,112,167,1) 85%);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -646,9 +648,9 @@ a {
 }
 
 #projects .projects-info h1 {
-    font-size: 2.9rem;
-    font-weight: 500;
-    color: white;
+    font-size: 3.9rem;
+    font-weight: 600;
+    color: crimson;
     position: relative;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -886,7 +888,7 @@ p span {
     align-content: center;
     /* margin-bottom: -220px; */
     width: 30rem;
-    min-width: 33rem;
+    min-width: 20rem;
 }
 
 #contact .contact-item {
@@ -981,6 +983,7 @@ p span {
 #footer {
        background-image: linear-gradient(123deg, #171c21 0%, #374048 100%);
     border-top-right-radius: 20px;
+    /* width: 10%; */
     border-top-left-radius: 20px;
     box-shadow: 6px -10px 12px #0909092c;
 
@@ -1192,7 +1195,7 @@ body .uparrow img {
     border-radius: 10px;
     /* border: 2px solid black; */
 
-
+    margin-bottom: 5px;
     color: rgb(255, 75, 16);
     background-color: rgb(148 79 55 / 33%);
 
@@ -1582,7 +1585,7 @@ body .uparrow img {
 
     #about .col-left .about-img {
         border: 10px solid rgba(17, 24, 39, 0.988);
-        width: 332%;
+        width: 232%;
         top: 1px;
 
     }
@@ -1746,7 +1749,7 @@ body .uparrow img {
 
 #skill .skills .achi .details::after {
     content: '';
-    height: 150%;
+    height: 108%;
     width: 0%;
     position: absolute;
     top: 15px;
